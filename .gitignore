@@ -1,0 +1,55 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (uv uses .venv by default)
+.venv/
+venv/
+.env/
+
+# uv lockfile — usually COMMIT this one (reproducibility!)
+# Do NOT add uv.lock here unless you have a very specific reason
+# uv.lock
+
+# Build & distribution artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# Installer logs & temp files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*,cover
+.pytest_cache/
+tox/
+nox/
+
+# mypy, pytest, coverage, etc.
+.mypy_cache/
+.dmypy.json
+.pytype/
+.dmypy/
+coverage/
+.coverage*
+coverage.xml
+
+# my files
+.env
